@@ -1,0 +1,90 @@
+body {
+  margin: 0 auto;
+  padding: 0 48px;
+  box-sizing: border-box;
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+  background-size:cover;
+  height: 90%;
+  width: 90%;
+  opacity: 0.9;
+}
+
+#headerbox-container{
+  background-color: #ffffff;
+  padding: 12px;
+  line-height: 1.4;
+}
+.header-image{
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+  background-color: #ffffff;
+  padding: 48px;
+  background-size:cover;
+  min-height: 23vh;
+  min-width: auto;
+  text-align: center;
+              }
+
+}
+#menu {
+  display:inline-block;
+  background-color: #504741;
+  color: #999999;
+  position: relative;
+  font-size: 0.75em;
+  font-weight: 400;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+.sezionecentrale{
+}
+.uomomontagna{
+  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.immaginelaptop{
+  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-01.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.stretchingdonna{
+  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-08.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.marshmallow{
+  background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/slide-09.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+#pannellodestro{
+
+}
+.searchbox{
+float: left;
+background: rgba(0, 0, 0, 0.04);
+color: #999999;
+width: 72%;
+font-size: 1em;
+line-height: 1.4;
+margin: 0px;
+box-sizing: border-box;
+border: 1px solid rgba(0, 0, 0, 0.12);
+}
