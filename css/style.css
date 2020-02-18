@@ -8,21 +8,20 @@ body {
   background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
   background-size:cover;
   color: #666666;
-  font-size: 1em;
   font-weight: 300;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family:  Arial, Helvetica, sans-serif;
   line-height: 1.8;
   margin:0 48px auto;
-  padding:0 12px;
-
+  padding:24px 12px;
 }
 
 #headerbox-container{
   background-color: #ffffff;
+  color: white;
   padding: 12px;
   line-height: 1.4;
-
 }
+
 .header-image{
   background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
   background-color: #ffffff;
@@ -30,36 +29,130 @@ body {
   background-size:cover;
   min-width: auto;
   text-align: center;
-              }
-
 }
-#menu {
-  background-color: #504741;
-  color: #999999;
+
+nav{
+  background: #504741;
   position: relative;
+  height: 50px;
+  width: auto;
+  line-height: 1.4;
+}
+
+nav ul{
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+nav li{
+  display: inline-block;
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+  font-family: "Montserrat";
   font-size: 0.75em;
-  font-weight: 400;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px;
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
 }
-.sezione-centrale{
-  max-width: 50%;
+
+#menu {
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 300;
+    list-style-type:none;
+    width: 200px;
+    padding: 20px;
+    text-shadow: 1px 1px rgba(0, 0, 0, .4);
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h4{
+  font-size: 1.1em;
+  color: #504741;
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+}
+
+.blocco-alto-sx{
+  margin: 24px 24px 0 0;
+}
+
+.navigation-left{
+  width: 20%;
+  float: left;
+  background: #ffffff;
+  margin: 24px 24px 0 0;
   padding: 24px;
-
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+  border-radius: 2px;
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.8;
 }
+
+ul{
+  list-style-type: none;
+}
+
+.subnav-left{
+  margin: 24px 24px 0 0;
+}
+
+.navwidget-left{
+  margin: 24px 24px 0 0;
+}
+
+.sezione-centrale{
+  margin: 24px 24px 0 0;
+  background-color: white;
+  max-width: 50%;
+  float: left;
+}
+.blocco-alto{
+margin: 12px 12px auto;
+}
+
+p{
+margin: 12px 12px auto;
+}
+
+.tagliobassoparagrafo{
+  margin-left: 24px;
+  margin-top: 0px;
+  margin-right: 24px;
+  margin-bottom: 12px;
+  padding: 12px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, .08);
+  }
 .uomomontagna{
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg");
   background-size: cover;
-  height: 40vh;
-  width: 40vw;
+  height: 50vh;
+  width: 43vw;
 }
-
+.blocco-medio{
+  margin: 24px 24px 12px 24px;
+}
 .immaginelaptop{
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-01.jpg");
   background-size: cover;
   height: 40vh;
   width: 40vw;
-
+}
+.blocco-basso{
+  margin: 24px 24px 12px 24px;
 }
 
 .stretchingdonna{
@@ -67,7 +160,6 @@ body {
   background-size: cover;
   height: 40vh;
   width: 40vw;
-
 }
 
 .marshmallow{
@@ -75,19 +167,39 @@ body {
   background-size: cover;
   height: 40vh;
   width: 40vw;
-
 }
+
 #pannellodestro{
   float: right;
+  width: 30%;
+  height: 10%;
+  background-color: white;
+}
+
+.searchbox{
 
 }
-.searchbox{
-float: left;
-background: rgba(0, 0, 0, 0.04);
-color: #999999;
-width: 72%;
-font-size: 1em;
-line-height: 1.4;
-box-sizing: border-box;
-border: 1px solid rgba(0, 0, 0, 0.12);
+
+.sezione-post{
+  display: inline-block;
+}
+.sezione-commenti{
+  display: inline-block;
+}
+.sezione-categorie{
+  display: inline-block;
+}
+.sezionetextwidget{
+  display: inline-block;
+}
+footer{
+  background-color: white;
+}
+
+.right{
+  display: inline-block;
+  float: left;
+}
+li{
+  display: inline-block;
 }
