@@ -11,8 +11,7 @@ body {
   font-weight: 300;
   font-family:  Arial, Helvetica, sans-serif;
   line-height: 1.8;
-  margin:0 48px auto;
-  padding:24px 12px;
+  padding: 24px 48px;
 }
 
 #headerbox-container{
@@ -89,7 +88,7 @@ h4{
 }
 
 .navigation-left{
-  width: 20%;
+  max-width: 20%;
   float: left;
   background: #ffffff;
   margin: 24px 24px 0 0;
@@ -111,13 +110,13 @@ ul{
 }
 
 .navwidget-left{
-  margin: 24px 24px 0 0;
+  padding-left: 24px;
 }
 
 .sezione-centrale{
   margin: 24px 24px 0 0;
   background-color: white;
-  max-width: 50%;
+  max-width: 45%;
   float: left;
 }
 .blocco-alto{
@@ -140,7 +139,7 @@ margin: 12px 12px auto;
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-09.jpg");
   background-size: cover;
   height: 50vh;
-  width: 43vw;
+  width: 37vw;
 }
 .blocco-medio{
   margin: 24px 24px 12px 24px;
@@ -149,7 +148,7 @@ margin: 12px 12px auto;
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-01.jpg");
   background-size: cover;
   height: 40vh;
-  width: 40vw;
+  width: 37vw;
 }
 .blocco-basso{
   margin: 24px 24px 12px 24px;
@@ -159,25 +158,26 @@ margin: 12px 12px auto;
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/featured-08.jpg");
   background-size: cover;
   height: 40vh;
-  width: 40vw;
+  width: 37vw;
 }
 
 .marshmallow{
   background-image: url("https://organicthemes.com/demo/natural-lite/files/2016/01/slide-09.jpg");
   background-size: cover;
   height: 40vh;
-  width: 40vw;
+  width: 37vw;
 }
 
 #pannellodestro{
   float: right;
-  width: 30%;
+  width: 28%;
   height: 10%;
   background-color: white;
+  margin: 24px 24px 0 0;
 }
 
 .searchbox{
-
+  padding: 24px;
 }
 
 .sezione-post{
